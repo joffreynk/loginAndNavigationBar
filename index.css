@@ -1,0 +1,90 @@
+body {
+    background-image: linear-gradient(0deg, rgb(85, 217, 233), rgb(86, 73, 252));
+    height: 100vh;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .login-form {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    background-image: linear-gradient(45deg, rgb(83, 91, 235), rgb(76, 11, 174));
+    border-radius: 10px;
+    box-shadow: 16px 16px 16px 4px rgba(0, 0, 0, 0.49);
+    -webkit-box-shadow: 16px 16px 16px 4px rgba(0, 0, 0, 0.49);
+    -moz-box-shadow: 16px 16px 16px 4px rgba(0, 0, 0, 0.49);
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.8rem;
+  }
+  
+  .form h2 {
+    font-size: 3rem;
+    background: -webkit-linear-gradient(#aa4f4f, #e211e2, rgb(76, 174, 11));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .username,
+  .password {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex: 1;
+  }
+  
+  label {
+    font-size: 22px;
+    color: #11b8e2;
+  }
+  
+  input,
+  button {
+    flex: 1;
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding: 5px;
+    padding-bottom: 5px;
+    color: blueviolet;
+    border: none;
+    border-radius: 0.2rem;
+    outline: none;
+  }
+  
+  input::placeholder {
+    font-size: 1rem;
+    color: #5e0ce2;
+    opacity: 0.5;
+  }
+  
+  button {
+    margin-top: 1rem;
+    padding: 10px 35px;
+    border-radius: 0.5rem;
+  }
+  
+  button:hover {
+    color: #1a6db1;
+    cursor: pointer;
+    transform: scale(1.1);
+  }
+  
+  #error {
+    font-size: 18px;
+    color: #fff;
+  }
+  
