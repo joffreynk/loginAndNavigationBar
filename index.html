@@ -8,26 +8,57 @@
     <title>Login and Navigation</title>
 </head>
 <body>
-  <div class="container">
-    <div class="nav-bar">
-
+  <div class="main-container">
+    <div class="nav-bar-cntainer">
+      <div class="nav-bar">
+        <div class="logo">
+          <a href="/">
+            <h2>Logo</h2>
+          </a>
+        </div>
+        <ul class="menu">
+          <li><a href="/">Home</a></li>
+          <li><a href="/blog">blog</a></li>
+          <li>
+            <span>services</span>
+            image.png
+            <ul>
+              <li><a href="/help_desk">Help Desk</a></li>
+              <li><a href="/mobile">Mobile</a></li>
+              <li><a href="/network">Network</a></li>
+              <li><a href="/software">software development</a></li>
+              <li><a href="/shipping">Shipping</a></li>
+            </ul>
+          </li>
+          <li><a href="/blog">News</a></li>
+          <li><a href="/contacts">Contacts</a></li>
+        </ul>
+        <div class="help">
+          <span>Help</span>
+          <img src="problem.png" alt="help" />
+        </div>
+  
+      </div>
     </div>
-    <div class="login-form">
-      <h2>Login</h2>
-      <form>
-        <div class="username">
-          <label>User Name</label>
-          <input type="text" id="userName" required placeholder="Enter user Name" name="userName" />
-        </div>
-        <div class="password" >
-          <label>Password</label>
-          <input type="password" id="password" required placeholder="Enter password" name="password" />
-        </div>
-        <div class="submit">
-          <button id="submit" type="submit">Login</button>
-        </div>
-        <span id="error"></span>
-      </form>
+
+    <div class="login-container">
+      <div class="login-form">
+        <h2>Login</h2>
+        <form>
+          <div class="username">
+            <label>User Name</label>
+            <input type="text" id="userName" required placeholder="Enter user Name" name="userName" />
+          </div>
+          <div class="password" >
+            <label>Password</label>
+            <input type="password" id="password" required placeholder="Enter password" name="password" />
+          </div>
+          <div class="submit">
+            <button id="submit" type="submit">Login</button>
+          </div>
+          <span id="error"></span>
+        </form>
+      </div>
     </div>
   </div>
 
