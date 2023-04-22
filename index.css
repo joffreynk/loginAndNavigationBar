@@ -1,7 +1,120 @@
 body {
     background-image: linear-gradient(0deg, rgb(85, 217, 233), rgb(86, 73, 252));
-    height: 100vh;
   }
+  
+  .main-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  a {
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  li {
+    list-style-type: none;
+    font-size: 22px;
+    color: #fff;
+  }
+  
+  .menu > li {
+    padding: 5px 10px;
+  }
+
+  .menu > li:hover, .menu > li > a:hover {
+    color: #11e26f;
+    transform: scale(1.2);
+    background-color: rgb(124, 120, 120);
+    border-radius: 5px;
+  }
+
+
+
+  .down-arrow-image, .help-image {
+    width: 2rem;
+  }
+
+  .nav-bar-cntainer {
+    position: fixed;
+    height: 5rem;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-image: linear-gradient(45deg, rgb(83, 91, 235),rgba(167, 132, 35, 0.49), rgb(76, 11, 174), rgba(166, 209, 8, 0.49) );
+  }
+
+  .nav-bar {
+    padding: 0 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    
+  }
+
+  .services {
+    position: relative;
+    cursor: pointer;
+  }
+
+  .services:hover .more-services{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    background: #000;
+    width: 20rem;
+  }
+
+  .service-title {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .more-services {
+    display: none;
+  }
+
+  .more-services li:hover, .more-services li a:hover {
+    color: #11e26f;
+    background-color: rgb(124, 120, 120);
+    border-radius: 5px;
+    width: 100%;
+  }
+
+  .logo h2 {
+    font-size: 30px;
+    background: -webkit-linear-gradient(#aa4f4f, #8d534f, rgb(114, 11, 174));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+  }
+
+  .help {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  .help span {
+    font-size: 18px;
+    color: #fff;
+  }
+
+
 
   .login-container {
     display: flex;
@@ -31,9 +144,9 @@ body {
     gap: 0.8rem;
   }
   
-  .form h2 {
+  .login-form h2 {
     font-size: 3rem;
-    background: -webkit-linear-gradient(#aa4f4f, #e211e2, rgb(76, 174, 11));
+    background: -webkit-linear-gradient(#80aa4f, #1114e2, rgb(11, 122, 174));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
