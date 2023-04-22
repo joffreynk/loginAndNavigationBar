@@ -45,7 +45,7 @@ body {
     top: 0;
     right: 0;
     left: 0;
-    background-image: linear-gradient(45deg, rgb(83, 91, 235),rgba(167, 132, 35, 0.49), rgb(76, 11, 174), rgba(166, 209, 8, 0.49) );
+    background-image: linear-gradient(45deg, rgb(73, 129, 51),rgba(167, 132, 35, 0.49), rgb(76, 11, 174), rgba(166, 209, 8, 0.49) );
   }
 
   .nav-bar {
